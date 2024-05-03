@@ -1,4 +1,5 @@
 import Image from "next/image";
+import Link from "next/link";
 
 export default function Home() {
   return (
@@ -42,7 +43,7 @@ export default function Home() {
               />
             </div>
             <button className="bg-[#6D60F6] py-3 w-full rounded-lg mt-6">
-              <span className="text-white font-semibold">Log In</span>
+              <Link href={"/POD-seller-partner-program"} className="text-white font-semibold">Log In</Link>
             </button>
           </form>
           <div className="my-10 flex items-center">
