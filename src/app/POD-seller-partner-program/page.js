@@ -1,4 +1,5 @@
 import Image from "next/image";
+import Link from "next/link";
 
 export default function PodSellerPartnerProgram() {
   return (
@@ -87,9 +88,9 @@ export default function PodSellerPartnerProgram() {
               </div>
             </div>
             <button className="bg-[#6D60F6] py-3 w-full rounded-lg mt-10">
-              <span className="text-white font-semibold">
+              <Link href={"/success"} className="text-white font-semibold">
                 Sign up to as a seller partner
-              </span>
+              </Link>
             </button>
           </form>
         </div>
