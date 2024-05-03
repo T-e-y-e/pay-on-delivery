@@ -1,6 +1,6 @@
 import Link from "next/link";
 
-export default function PodSellerPartnerProgram() {
+export default function Success() {
     return (
       <div className="flex justify-center pt-32 px-6">
         <div className="flex flex-col items-center justify-center max-w-xl gap-6">

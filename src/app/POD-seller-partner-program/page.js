@@ -3,8 +3,8 @@ import Link from "next/link";
 
 export default function PodSellerPartnerProgram() {
   return (
-    <div className="grid grid-cols-1 md:grid-cols-2 min-h-[80vh] flex-col items-center justify-between">
-      <div className="px-6 md:p-24 mt-6 md:mt-0">
+    <div className="px-6 md:p-24 gap-24 grid grid-cols-1 md:grid-cols-2 min-h-[80vh] flex-col items-center justify-between">
+      <div className="mt-6 md:mt-0">
         <div className="">
           <h6 className="font-semibold text-2xl text-[#080445]">
             Welcome shop thanau
@@ -94,10 +94,70 @@ export default function PodSellerPartnerProgram() {
             </button>
           </form>
         </div>
+      </div>
+      <div>
+        <div className="bg-[#221D58] mb-16 md:mb-0 text-white rounded-[30px] overflow-hidden relative">
+          <div className="bg-[#FDAE09] h-[55px] w-[55px] rounded-full absolute top-[-34px] right-3 hidden md:block"></div>
+          <div className="md:flex my-6 px-10 hidden">
+            <span className="block bg-[#FDAE09] w-[8px] h-[8px] rounded-full"></span>
           </div>
-          <div></div>
-      {/* <div className="hidden md:block w-full h-full bg-[url('/images/bg-desktop.png')] bg-no-repeat bg-cover"></div>
-      <div className="md:hidden w-full bg-[url('/images/bg-mobile.png')] bg-no-repeat bg-cover h-[300px] mt-20"></div> */}
+          <div className="md:px-12 px-6 py-8">
+            <h2 className="text-xl">POD seller partner program</h2>
+            <p className="text-sm text-[#FFFFFFCC] mt-3">
+              Get accurate and updated live rates of over 38+ currencies,perform
+              instant exchange, forward rate or quick currency conversion.
+            </p>
+            <div className="mt-12">
+              <div className="flex items-center gap-4">
+                <img
+                  src="./icons/icon-right.png"
+                  alt="icon-right"
+                  className="w-[10px] h-[6.66px]"
+                />
+                <p className="text-sm text-[#FFFFFFCC]">Revenue sharing</p>
+              </div>
+              <div className="flex items-center gap-4 mt-4">
+                <img
+                  src="./icons/icon-right.png"
+                  alt="icon-right"
+                  className="w-[10px] h-[6.66px]"
+                />
+                <p className="text-sm text-[#FFFFFFCC]">
+                  Sell more, make more money
+                </p>
+              </div>
+              <div className="flex items-center gap-4 mt-4">
+                <img
+                  src="./icons/icon-right.png"
+                  alt="icon-right"
+                  className="w-[10px] h-[6.66px]"
+                />
+                <p className="text-sm text-[#FFFFFFCC]">invite only</p>
+              </div>
+            </div>
+            <div className="flex justify-end md:justify-start">
+              <button className="rounded-lg border border-white py-2 px-2.5 mt-8">
+                <span className="text-sm font-semibold">Learn more</span>
+              </button>
+            </div>
+          </div>
+          <div className="md:flex justify-end mb-10 px-10 hidden">
+            <span className="block bg-[#AAD7E1] w-[10px] h-[10px] rounded-full"></span>
+          </div>
+          <div>
+            <img
+              src="./images/bg-desktop2.png"
+              alt="bg-desktop"
+              className="w-full h-[300px] object-cover hidden md:block"
+            />
+            <img
+              src="./images/bg-mobile2.png"
+              alt="bg-desktop"
+              className="w-full h-[100px] object-cover md:hidden"
+            />
+          </div>
+        </div>
+      </div>
     </div>
   );
 }
