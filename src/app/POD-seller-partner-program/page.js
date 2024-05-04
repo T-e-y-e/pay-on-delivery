@@ -170,7 +170,7 @@ export default function PodSellerPartnerProgram() {
             </div>
           </div>
         ) : (
-          <div className="bg-[#221D58] max-h-[90vh] mb-16 md:mb-0 text-white rounded-[30px] overflow-hidden relative">
+          <div className="bg-[#221D58] pt-3 max-h-[90vh] mb-16 md:mb-0 text-white rounded-[30px] overflow-hidden relative">
             <div className="bg-[#FDAE09] h-[55px] w-[55px] rounded-full absolute top-[-24px] right-[-10px] hidden md:block"></div>
             <div className="md:px-12 px-6 py-8 max-h-[70vh] overflow-y-scroll">
               <style jsx>{`
@@ -192,7 +192,7 @@ export default function PodSellerPartnerProgram() {
                   display: none;
                 }
               `}</style>
-              <p className="text-sm text-[#FFFFFFCC] mt-3">
+              <p className="text-sm text-[#FFFFFFCC]">
                 Welcome to the POD Partnership Program, where your success is
                 our priority! Joining our program opens up a world of
                 opportunities to take your business to new heights. Here's what
